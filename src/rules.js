@@ -15,7 +15,6 @@ const rules = {
   "color-hex-case": "lower", // Specify lowercase or uppercase for hex colors.
   "color-hex-length": "short", // Specify short or long notation for hex colors.
   "color-named": "never", // Require (where possible) or disallow named colors.
-  // "color-no-hex": true, // Disallow hex colors.
   "color-no-invalid-hex": true, // Disallow invalid hex colors.
 
   //
@@ -23,13 +22,11 @@ const rules = {
   // ====================
 
   "font-family-name-quotes": "always-where-recommended", // Specify whether or not quotation marks should be used around font family names.
-  // "font-weight-notation": "", // Require numeric or named (where possible) font-weight values.
 
   //
   // Function
   // ====================
 
-  // "function-blacklist": [], // Specify a blacklist of disallowed functions.
   "function-calc-no-unspaced-operator": true, // Disallow an unspaced operator within calc functions.
   "function-comma-newline-after": "always-multi-line", // Require a newline or disallow whitespace after the commas of functions.
   "function-comma-newline-before": "never-multi-line", // Require a newline or disallow whitespace before the commas of functions.
@@ -37,13 +34,9 @@ const rules = {
   "function-comma-space-before": "never-single-line", // Require a single space or disallow whitespace before the commas of functions.
   "function-linear-gradient-no-nonstandard-direction": true, // Disallow direction values in linear-gradient() calls that are not valid according to the standard syntax.
   "function-max-empty-lines": 0, // Limit the number of adjacent empty lines within functions.
-  // "function-name-case": "lower", // Specify lowercase or uppercase for function names.
   "function-parentheses-newline-inside": "always-multi-line", // Require a newline or disallow whitespace on the inside of the parentheses of functions.
   "function-parentheses-space-inside": "never", // Require a single space or disallow whitespace on the inside of the parentheses of functions.
-  // "function-url-data-uris": "", // Require or disallow data URIs for urls.
   "function-url-quotes": "always", // Require or disallow quotes for urls.
-  // "function-whitelist": [], // Specify a whitelist of allowed functions.
-  // "function-whitespace-after": "", // Require or disallow whitespace after functions.
 
   //
   // Number
@@ -67,19 +60,12 @@ const rules = {
   "length-zero-no-unit": true, // Disallow units for zero lengths.
 
   //
-  // Time
-  // ====================
-
-  // "time-no-imperceptible": true, // Disallow animation and transition less than or equal to 100ms.
-
-  //
   // Unit
   // ====================
 
   "unit-blacklist": [ "in", "cm", "mm" ], // Specify a blacklist of disallowed units.
   "unit-case": "lower", // Specify lowercase or uppercase for units.
   "unit-no-unknown": true, // Disallow unknown units.
-  // "unit-whitelist": [], // Specify a whitelist of allowed units.
 
   //
   // Value
@@ -98,13 +84,6 @@ const rules = {
   "value-list-comma-space-before": "never-single-line", // Require a single space or disallow whitespace before the commas of value lists.
 
   //
-  // Custom property
-  // ====================
-
-  // "custom-property-no-outside-root": true, // Disallow custom properties outside of :root rules.
-  // "custom-property-pattern": /foo-.+/, // Specify a pattern for custom properties.
-
-  //
   // Shorthand property
   // ====================
 
@@ -114,10 +93,8 @@ const rules = {
   // Property
   // ====================
 
-  // "property-blacklist": [], // Specify a blacklist of disallowed properties.
   "property-case": "lower", // Specify lowercase or uppercase for properties.
   "property-no-vendor-prefix": true, // Disallow vendor prefixes for properties.
-  // "property-whitelist": [], // Specify a whitelist of allowed properties.
 
   //
   // Keyframe declaration
@@ -134,11 +111,6 @@ const rules = {
   "declaration-colon-newline-after": "always-multi-line", // Require a newline or disallow whitespace after the colon of declarations.
   "declaration-colon-space-after": "always-single-line", // Require a single space or disallow whitespace after the colon of declarations.
   "declaration-colon-space-before": "never", // Require a single space or disallow whitespace before the colon of declarations.
-  // "declaration-no-important": true, // Disallow !important within declarations.
-  // "declaration-property-unit-blacklist": [], // Specify a blacklist of disallowed property and unit pairs within declarations.
-  // "declaration-property-unit-whitelist": [], // Specify a whitelist of allowed property and unit pairs within declarations.
-  // "declaration-property-value-blacklist": [], // Specify a blacklist of disallowed property and value pairs within declarations.
-  // "declaration-property-value-whitelist": [], // Specify a whitelist of allowed property and value pairs within declarations.
 
   //
   // Declaration block
@@ -163,10 +135,7 @@ const rules = {
   "block-closing-brace-newline-before": "always-multi-line", // Require a newline or disallow whitespace before the closing brace of blocks.
   "block-closing-brace-space-after": "always-single-line", // Require a single space or disallow whitespace after the closing brace of blocks.
   "block-closing-brace-space-before": "always-single-line", // Require a single space or disallow whitespace before the closing brace of blocks.
-  // "block-no-empty": true, // Disallow empty blocks.
-  // "block-no-single-line": true, // Disallow single-line blocks.
   "block-opening-brace-newline-after": "always-multi-line", // Require a newline after the opening brace of blocks.
-  // "block-opening-brace-newline-before": "", // Require a newline or disallow whitespace before the opening brace of blocks.
   "block-opening-brace-space-after": "always-single-line", // Require a single space or disallow whitespace after the opening brace of blocks.
   "block-opening-brace-space-before": "always", // Require a single space or disallow whitespace before the opening brace of blocks.
 
@@ -175,22 +144,11 @@ const rules = {
   // ====================
 
   "selector-attribute-brackets-space-inside": "never", // Require a single space or disallow whitespace on the inside of the brackets within attribute selectors.
-  // "selector-attribute-operator-blacklist": [], // Specify a blacklist of disallowed attribute operators.
   "selector-attribute-operator-space-after": "never", // Require a single space or disallow whitespace after operators within attribute selectors.
   "selector-attribute-operator-space-before": "never", // Require a single space or disallow whitespace before operators within attribute selectors.
-  // "selector-attribute-operator-whitelist": [], // Specify a whitelist of allowed attribute operators.
-  // "selector-class-pattern": "", // Specify a pattern for class selectors.
   "selector-combinator-space-after": "always", // Require a single space or disallow whitespace after the combinators of selectors.
   "selector-combinator-space-before": "always", // Require a single space or disallow whitespace before the combinators of selectors.
-  // "selector-id-pattern": "", // Specify a pattern for id selectors.
-  // "selector-max-compound-selectors": 4, // Limit the number of compound selectors in a selector.
-  // "selector-max-specificity": "", // Limit the specificity of selectors.
-  // "selector-no-attribute": true, // Disallow attribute selectors.
-  // "selector-no-combinator": true, // Disallow combinators in selectors.
   "selector-no-id": true, // Disallow id selectors.
-  // "selector-no-qualifying-type": true, // Disallow qualifying a selector by type.
-  // "selector-no-type": true, // Disallow type selectors.
-  // "selector-no-universal": true, // Disallow the universal selector.
   "selector-no-vendor-prefix": true, // Disallow vendor prefixes for selectors.
   "selector-pseudo-class-case": "lower", // Specify lowercase or uppercase for pseudo-class selectors.
   "selector-pseudo-class-no-unknown": true, // Disallow unknown pseudo-class selectors.
@@ -248,12 +206,6 @@ const rules = {
   "media-feature-range-operator-space-before": "always", //  Require a single space or disallow whitespace before the range operator in media features.
 
   //
-  // Custom media
-  // ====================
-
-  // "custom-media-pattern": /foo-.+/, // Specify a pattern for custom media query names.
-
-  //
   // Media query
   // ====================
 
@@ -272,10 +224,7 @@ const rules = {
   // At-rule
   // ====================
 
-  // "at-rule-blacklist": [], // Specify a blacklist of disallowed at-rules.
-  // "at-rule-empty-line-before": '', // Require or disallow an empty line before at-rules.
   "at-rule-name-case": "lower", // Specify lowercase or uppercase for at-rules names.
-  // "at-rule-name-newline-after": "", // Require a newline after at-rule names.
   "at-rule-name-space-after": "always", // Require a single space after at-rule names.
   "at-rule-no-unknown": [
     true, // Disallow unknown at-rules.
@@ -288,7 +237,6 @@ const rules = {
   ],
   "at-rule-no-vendor-prefix": true, // Disallow vendor prefixes for at-rules.
   "at-rule-semicolon-newline-after": "always", // Require a newline after the semicolon of at-rules.
-  // "at-rule-whitelist": [], // Specify a whitelist of allowed at-rules.
 
   //
   // Stylelint disable comment
@@ -312,7 +260,6 @@ const rules = {
     },
   ],
   "comment-whitespace-inside": "always", // Require or disallow whitespace on the inside of comment markers.
-  // "comment-word-blacklist": [], // Specify a blacklist of disallowed words within comments.
 
   //
   // General / Sheet
@@ -321,18 +268,13 @@ const rules = {
   "indentation": 2, // Specify indentation.
   "max-empty-lines": 1, // Limit the number of adjacent empty lines.
   "max-line-length": 120, // Limit the length of a line.
-  // "max-nesting-depth": 2, // Limit the depth of nesting.
-  // "no-browser-hacks": true, // Disallow browser hacks that are irrelevant to the browsers you are targeting.
-  // "no-descending-specificity": true, // Disallow selectors of lower specificity from coming after overriding selectors of higher specificity.
   "no-duplicate-selectors": true, // Disallow duplicate selectors.
   "no-empty-source": true, // Disallow empty sources.
   "no-eol-whitespace": true, // Disallow end-of-line whitespace.
   "no-extra-semicolons": true, // Disallow extra semicolons.
-  // "no-indistinguishable-colors": true, // Disallow colors that are suspiciously close to being identical.
   "no-invalid-double-slash-comments": true, // Disallow double-slash comments (//...) which are not supported by CSS.
   "no-missing-eof-newline": true, // Disallow missing end-of-file newline.
   "no-unknown-animations": true, // Disallow animation names that do not correspond to a @keyframes declaration.
-  // "no-unsupported-browser-features": true, // Disallow features that are unsupported by the browsers that you are targeting.
 }
 
 export default rules
