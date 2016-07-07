@@ -30,7 +30,7 @@
   "bugs": "https://github.com/Elao/stylelint-config-elao/issues",
   "main": "./dist/index.js",
   "scripts": {
-    "build": "babel src --out-dir dist",
+    "build": "rm -rf dist && babel src --out-dir dist",
     "lint": "eslint . --ignore-path .gitignore",
     "prepublish": "npm run build",
     "pretest": "npm run lint"
