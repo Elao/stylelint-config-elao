@@ -133,7 +133,6 @@ const rules = {
 
   "block-closing-brace-newline-after": "always", // Require a newline or disallow whitespace after the closing brace of blocks.
   "block-closing-brace-newline-before": "always-multi-line", // Require a newline or disallow whitespace before the closing brace of blocks.
-  "block-closing-brace-space-after": "always-single-line", // Require a single space or disallow whitespace after the closing brace of blocks.
   "block-closing-brace-space-before": "always-single-line", // Require a single space or disallow whitespace before the closing brace of blocks.
   "block-opening-brace-newline-after": "always-multi-line", // Require a newline after the opening brace of blocks.
   "block-opening-brace-space-after": "always-single-line", // Require a single space or disallow whitespace after the opening brace of blocks.
@@ -165,7 +164,7 @@ const rules = {
   // Selector list
   // ====================
 
-  "selector-list-comma-newline-after": "always-multi-line", // Require a newline or disallow whitespace after the commas of selector lists.
+  "selector-list-comma-newline-after": "always", // Require a newline or disallow whitespace after the commas of selector lists.
   "selector-list-comma-newline-before": "never-multi-line", // Require a newline or disallow whitespace before the commas of selector lists.
   "selector-list-comma-space-after": "always-single-line", // Require a single space or disallow whitespace after the commas of selector lists.
   "selector-list-comma-space-before": "never", // Require a single space or disallow whitespace before the commas of selector lists.

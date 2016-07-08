@@ -1,3 +1,7 @@
+# 0.2.0
+
+* First stable beta release
+
 # 0.1.2
 
 * Fixes
