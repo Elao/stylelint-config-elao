@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-elao",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Elao CSS Stylelint configuration",
   "keywords": [
     "stylelint",
@@ -20,6 +20,19 @@
       "name": "Chris Meiller",
       "url": "https://github.com/cmeiller"
     }
+  ],
+  "babel": {
+    "presets": [
+      "es2015",
+      "stage-3"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "stylelint"
+  },
+  "files": [
+    "dist",
+    "src"
   ],
   "license": "MIT",
   "repository": {
