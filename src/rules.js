@@ -203,12 +203,7 @@ const rules = {
   "media-feature-no-missing-punctuation": true, //  Disallow missing punctuation for non-boolean media features.
   "media-feature-range-operator-space-after": "always", //  Require a single space or disallow whitespace after the range operator in media features.
   "media-feature-range-operator-space-before": "always", //  Require a single space or disallow whitespace before the range operator in media features.
-
-  //
-  // Media query
-  // ====================
-
-  "media-query-parentheses-space-inside": "never", // Require a single space or disallow whitespace on the inside of the parentheses within media queries.
+  "media-feature-parentheses-space-inside": "never", // Require a single space or disallow whitespace on the inside of the parentheses within media features.
 
   //
   // Media query list
@@ -272,7 +267,7 @@ const rules = {
   "no-eol-whitespace": true, // Disallow end-of-line whitespace.
   "no-extra-semicolons": true, // Disallow extra semicolons.
   "no-invalid-double-slash-comments": true, // Disallow double-slash comments (//...) which are not supported by CSS.
-  "no-missing-eof-newline": true, // Disallow missing end-of-file newline.
+  "no-missing-end-of-source-newline": true, // Disallow missing end-of-source newlines.
   "no-unknown-animations": true, // Disallow animation names that do not correspond to a @keyframes declaration.
 }
 

@@ -1,3 +1,7 @@
+# 0.2.1
+
+* Updates rules with stylelint 7.5.0
+
 # 0.2.0
 
 * First stable beta release
