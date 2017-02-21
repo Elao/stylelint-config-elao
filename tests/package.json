@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "dependencies": {
+    "stylefmt": "^5.1.2",
+    "stylelint": "^7.9.0"
+  },
+  "stylelint": {
+    "extends": "stylelint-config-elao"
+  }
+}
