@@ -56,7 +56,6 @@ module.exports = {
     // Declaration block
     // ====================
     "declaration-block-no-duplicate-properties": true, // Disallow duplicate properties within declaration blocks.
-    "declaration-block-no-ignored-properties": true, // Disallow property values that are ignored due to another property value in the same rule.
     "declaration-block-semicolon-newline-after": "always", // Require a newline or disallow whitespace after the semicolons of declaration blocks.
     "declaration-block-semicolon-newline-before": "never-multi-line", // Require a newline or disallow whitespace before the semicolons of declaration blocks.
     //
@@ -68,6 +67,7 @@ module.exports = {
     //
     // Selector list
     // ====================
+    "selector-list-comma-newline-after": "always-multi-line", // Require a newline or disallow whitespace after the commas of selector lists.
     "selector-list-comma-newline-before": "never-multi-line", // Require a newline or disallow whitespace before the commas of selector lists.
     "selector-list-comma-space-after": "always-single-line", // Require a single space or disallow whitespace after the commas of selector lists.
     //
@@ -114,10 +114,21 @@ module.exports = {
     //
     // Plugin - Scss
     // ==========================
+    "scss/at-mixin-argumentless-call-parentheses": "always", // Require or disallow parentheses in argumentless @mixin calls.
+    "scss/dollar-variable-colon-newline-after": "always-multi-line", // Require a newline after the colon in $-variable declarations.
+    "scss/dollar-variable-colon-space-after": "always", // Require a single space or disallow whitespace after the colon in $-variable declarations.
+    "scss/dollar-variable-colon-space-before": "never", // Require a single space or disallow whitespace before the colon in $-variable declarations.
     //
     // Plugin - Order
     // ==========================
-    "order/declaration-block-order": [  // Specify the order of content within declaration blocks.
+    "order/declaration-block-order": [ // Specify the order of content within declaration blocks.
+      "custom-properties",
+      "dollar-variables",
+      "declarations",
+      "rules",
+      "at-rules"
+    ],
+    "order/declaration-block-properties-specified-order": [  // Specify the almost strict order of properties within declaration blocks.
       "position",
       "top",
       "right",
