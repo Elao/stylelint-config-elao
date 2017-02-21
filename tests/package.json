@@ -1,8 +1,15 @@
 {
   "private": true,
+  "scripts": {
+    "lint": "stylelint src/*",
+    "lint-junit": "stylelint --custom-formatter node_modules/stylelint-formatter-relative-junit/index src/*",
+    "fix": "stylefmt -r src/*"
+  },
   "dependencies": {
     "stylefmt": "^5.1.2",
-    "stylelint": "^7.9.0"
+    "stylelint": "^7.9.0",
+    "stylelint-formatter-relative-junit": "^0.0.1",
+    "stylelint-junit-formatter": "^0.2.0"
   },
   "stylelint": {
     "extends": "stylelint-config-elao"
