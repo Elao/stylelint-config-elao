@@ -33,7 +33,7 @@ module.exports = {
     //
     // String
     // ====================
-    "string-quotes": "single", // Specify single or double quotes around strings.
+    "string-quotes": "double", // Specify single or double quotes around strings.
     //
     // Unit
     // ====================
@@ -90,15 +90,6 @@ module.exports = {
     // At-rule
     // ====================
     "at-rule-name-space-after": "always", // Require a single space after at-rule names.
-    "at-rule-no-unknown": [
-      true, // Disallow unknown at-rules.
-      {
-        "ignoreAtRules": [
-          "include",
-          "mixin",
-        ],
-      },
-    ],
     "at-rule-no-vendor-prefix": true, // Disallow vendor prefixes for at-rules.
     //
     // General / Sheet
@@ -122,9 +113,9 @@ module.exports = {
     "order/declaration-block-order": [ // Specify the order of content within declaration blocks.
       "custom-properties",
       "dollar-variables",
+      "at-rules",
       "declarations",
-      "rules",
-      "at-rules"
+      "rules"
     ],
     "order/declaration-block-properties-specified-order": [  // Specify the almost strict order of properties within declaration blocks.
       "position",
