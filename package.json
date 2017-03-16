@@ -1,12 +1,12 @@
 {
   "name": "stylelint-config-elao",
   "version": "0.3.2",
-  "description": "Elao CSS Stylelint configuration",
+  "description": "Elao Stylelint configuration",
   "repository": "elao/stylelint-config-elao",
   "license": "MIT",
   "author": {
     "name": "Elao",
-    "url": "http://elao.com"
+    "url": "https://www.elao.com"
   },
   "contributors": [
     {
