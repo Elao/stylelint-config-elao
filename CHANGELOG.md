@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [0.4.0] - 2017-03-16
+### Changed
+- Update order rules
+
 ## [0.3.2] - 2017-02-23
 ### Changed
 - Better tty/interative applications handling

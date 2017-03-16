@@ -110,14 +110,14 @@ module.exports = {
     //
     // Plugin - Order
     // ==========================
-    "order/declaration-block-order": [ // Specify the order of content within declaration blocks.
+    "order/order": [ // Specify the order of content within declaration blocks.
       "custom-properties",
       "dollar-variables",
       "at-rules",
       "declarations",
       "rules"
     ],
-    "order/declaration-block-properties-specified-order": [  // Specify the almost strict order of properties within declaration blocks.
+    "order/properties-order": [  // Specify the almost strict order of properties within declaration blocks.
       "position",
       "top",
       "right",
