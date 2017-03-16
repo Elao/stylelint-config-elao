@@ -37,7 +37,7 @@
     "test": "eslint index.js"
   },
   "devDependencies": {
-    "eslint": "^3.16.0",
+    "eslint": "^3.17.1",
     "eslint-config-stylelint": "^6.0.0"
   },
   "peerDependencies": {
