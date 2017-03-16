@@ -1,6 +1,6 @@
 # stylelint-config-elao
 
-> Elao CSS Stylelint configuration
+> Elao Stylelint configuration
 
 A configurable [Stylelint](http://stylelint.io/) configuration used in Elao projects.
 
