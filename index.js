@@ -115,7 +115,7 @@ module.exports = {
       "dollar-variables",
       "at-rules",
       "declarations",
-      "rules"
+      "rules",
     ],
     "order/properties-order": [  // Specify the almost strict order of properties within declaration blocks.
       "position",
