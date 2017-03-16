@@ -34,11 +34,13 @@
     "extends": "stylelint"
   },
   "scripts": {
-    "test": "eslint index.js"
+    "lint": "eslint index.js",
+    "test": "stylelint --config tests/stylelint.config.json tests/*.scss"
   },
   "devDependencies": {
     "eslint": "^3.17.1",
-    "eslint-config-stylelint": "^6.0.0"
+    "eslint-config-stylelint": "^6.0.0",
+    "stylelint": "^7.9.0"
   },
   "peerDependencies": {
     "stylelint": "^7.9.0"
