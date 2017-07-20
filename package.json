@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-elao",
-  "version": "0.4.1",
+  "version": "0.5.0",
   "description": "Elao Stylelint configuration",
   "repository": "elao/stylelint-config-elao",
   "license": "MIT",
@@ -39,18 +39,18 @@
     "fix": "stylefmt --config tests/stylelint.config.json tests/*.scss"
   },
   "devDependencies": {
-    "eslint": "^3.17.1",
-    "eslint-config-stylelint": "^6.0.0",
-    "stylefmt": "^5.3.0",
-    "stylelint": "^7.9.0"
+    "eslint": "^4.2.0",
+    "eslint-config-stylelint": "^7.0.0",
+    "stylefmt": "^6.0.0",
+    "stylelint": "^8.0.0"
   },
   "peerDependencies": {
-    "stylelint": "^7.9.0"
+    "stylelint": "^8.0.0"
   },
   "dependencies": {
-    "stylelint-config-standard": "^16.0.0",
+    "stylelint-config-standard": "^17.0.0",
     "stylelint-csstree-validator": "^1.1.1",
-    "stylelint-order": "^0.4.1",
+    "stylelint-order": "^0.6.0",
     "stylelint-scss": "^1.4.3"
   }
 }
