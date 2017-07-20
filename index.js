@@ -61,7 +61,7 @@ module.exports = {
     //
     // Selector
     // ====================
-    "selector-no-id": true, // Disallow id selectors.
+    "selector-max-id": 0, // Disallow id selectors.
     "selector-no-vendor-prefix": true, // Disallow vendor prefixes for selectors.
     "selector-pseudo-element-colon-notation": "single", // Specify single or double colon notation for applicable pseudo-elements.
     //
